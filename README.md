@@ -1,12 +1,25 @@
-# Sozie Android Assessment
+Hello,
 
-Hello, you've been invited to the next round of the Sozie senior android developer interview. This step features a take home assessment in which you will be building the browse page component of the Sozie application. 
+Congratulations! Our team has progressed you to Round 2 for the Senior Android Developer role at Sozie. As part of a technical assessment, we ask that you complete a coding test.
 
-In case you haven't already, remember to take a look at the Sozie iOS documentation here! <<insert_link_here>>
+For the coding test, you will complete Sub-Task 1. Create UI, highlighted in green in the table below. 
 
-The main landing page of the current Sozie application features 4 tabs, browse, wish list, requests, and help.
+Instructions
+1. To get started clone the repository here.
+2. Use the following assets to complete your work Measurement Screens & Assets
+3. Email back a link to your repository when you are done
 
+If any technical issues arise during the test, please contact muneeb@sozie.com for assistance.
 
+Deadline
+Monday, June 15 5pm EST
+Please budget 6 hours for this test.
+If you do not think you can meet the deadline, please email us and let us know when you can submit by.
 
-If you have any questions/concerns while taking the assessment, don't hesitate to reach out at muneebazam45@gmail.com.
+Next Steps
+We will assess your code and give you feedback regardless of whether you are successful or not. If you are successful we will make you an offer for the position.
+
+Thank you,
+
+Tahreem
 
