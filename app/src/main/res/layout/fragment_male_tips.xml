@@ -42,7 +42,7 @@
             android:layout_marginStart="100dp"
             android:layout_marginEnd="100dp"
             android:adjustViewBounds="true"
-            android:src="@drawable/female_body_tips"
+            android:src="@drawable/male_body_tip"
             app:layout_constraintTop_toBottomOf="@+id/subTitle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
@@ -56,7 +56,7 @@
             android:layout_marginLeft="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_small_padding"
             android:layout_marginRight="@dimen/default_small_padding"
-            android:src="@drawable/a_f_round"
+            android:src="@drawable/a_m_round"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image"
             />
@@ -91,7 +91,7 @@
             android:layout_marginLeft="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_small_padding"
             android:layout_marginRight="@dimen/default_small_padding"
-            android:src="@drawable/b_f_round"
+            android:src="@drawable/b_m_round"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/heightTips"
             />
@@ -100,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/default_margin"
-            android:text="@string/waist"
+            android:text="@string/chest"
             android:textSize="@dimen/heading_text_h2"
             android:textStyle="bold"
             android:textColor="@color/blackText"
@@ -108,10 +108,10 @@
             app:layout_constraintStart_toEndOf="@+id/bImageTag"
             />
         <TextView
-            android:id="@+id/wasitTips"
+            android:id="@+id/chestTips"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/waistTips"
+            android:text="@string/chestTips"
             app:layout_constraintTop_toBottomOf="@+id/bTagHeading"
             app:layout_constraintStart_toEndOf="@+id/bImageTag"
             app:layout_constraintEnd_toEndOf="parent"
@@ -126,12 +126,47 @@
             android:layout_marginLeft="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_small_padding"
             android:layout_marginRight="@dimen/default_small_padding"
-            android:src="@drawable/b_f_round"
+            android:src="@drawable/c_m_round"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestTips"
+            />
+        <TextView
+            android:id="@+id/cTagHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/waist"
+            android:textSize="@dimen/heading_text_h2"
+            android:textStyle="bold"
+            android:textColor="@color/blackText"
+            app:layout_constraintTop_toBottomOf="@+id/chestTips"
+            app:layout_constraintStart_toEndOf="@+id/cImageTag"
+            />
+        <TextView
+            android:id="@+id/wasitTips"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/waistTips"
+            app:layout_constraintTop_toBottomOf="@+id/cTagHeading"
+            app:layout_constraintStart_toEndOf="@+id/cImageTag"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/dImageTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_small_padding"
+            android:layout_marginRight="@dimen/default_small_padding"
+            android:src="@drawable/d_m_round"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/wasitTips"
             />
         <TextView
-            android:id="@+id/cTagHeading"
+            android:id="@+id/dTagHeading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/default_margin"
@@ -140,15 +175,15 @@
             android:textStyle="bold"
             android:textColor="@color/blackText"
             app:layout_constraintTop_toBottomOf="@+id/wasitTips"
-            app:layout_constraintStart_toEndOf="@+id/cImageTag"
+            app:layout_constraintStart_toEndOf="@+id/dImageTag"
             />
         <TextView
             android:id="@+id/hipsTips"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/hipTips"
-            app:layout_constraintTop_toBottomOf="@+id/cTagHeading"
-            app:layout_constraintStart_toEndOf="@+id/cImageTag"
+            app:layout_constraintTop_toBottomOf="@+id/dTagHeading"
+            app:layout_constraintStart_toEndOf="@+id/dImageTag"
             app:layout_constraintEnd_toEndOf="parent"
             />
 

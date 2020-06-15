@@ -10,10 +10,25 @@
         android:name="com.example.sozieassessment.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
-
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_MaleMeasurementFragment"
+            app:destination="@id/MaleMeasurementFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MaleMeasurementFragment"
+        android:name="com.example.sozieassessment.MaleMeasurementFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_male_measurement">
+        <action
+            android:id="@+id/action_MaleFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_MaleFragment_to_MaleTipsFragment"
+            app:destination="@id/maleTipsFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -24,5 +39,16 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/maleTipsFragment"
+        android:name="com.example.sozieassessment.MaleTipsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_male_tips">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/MaleMeasurementFragment" />
     </fragment>
 </navigation>

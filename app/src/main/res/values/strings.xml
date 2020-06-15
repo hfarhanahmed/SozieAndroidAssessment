@@ -5,8 +5,41 @@
     <string name="first_fragment_label">Measurement Page</string>
     <string name="second_fragment_label">Measurement Page 2</string>
     <string name="next">Next</string>
+    <string name="skip">Skip</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Measurement Page</string>
-    <string name="hello_second_fragment">Measurement Page 2</string>
+    <string name="hello_first_fragment">Measurements</string>
+    <string name="hello_second_fragment">Measurements</string>
+    <string name="measurement_subtitle">Add your measurements.\nUnsure of how to measure yourself?</string>
+    <string name="click_here">Click Here</string>
+    <string name="skip_to_do_it_later">Skip to do it later.</string>
+    <string name="height">Height</string>
+    <string name="waist">Wasit</string>
+    <string name="hips">Hips</string>
+    <string name="braSize">Bra Size</string>
+    <string name="dress_size_normally_wear">What dress size do you normally wear?</string>
+    <string name="bottom_size_normally_wear">What bottom size do you normally wear?</string>
+    <string name="top_size_normally_wear">What top size do you normally wear?</string>
+    <string name="select_size">Select Size</string>
+    <string name="height_tips">-Stand straight with feet together\n-Begin at the top of the head and pull tape straight down to the floor</string>
+    <string name="waistTips">-Bend to one side to find the natural crease of your waist\n-This is the slimmest part of the waist\n-Measure across at this point\n-Keep tape slightly lose to allow for breathing room</string>
+    <string name="hipTips">-Stand with feet together\n-Measure around the fullest part of the hips and rear\n-Tape should brush across both hipbones</string>
+    <string name="measurements_subTitle">Measurement tips for the perfect fit.</string>
+    <string name="measurementsTitle">How to measure</string>
+
+    <array name="sizes">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>2XL</item>
+        <item>3XL</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chest">Chest</string>
+    <string name="chestTips">-Measure around the fullest part of your chest</string>
+    <string name="measure_ft">ft</string>
+    <string name="measure_in">in</string>
 </resources>

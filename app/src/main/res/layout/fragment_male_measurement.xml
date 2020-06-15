@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/whiteBackground">
+    android:background="@color/whiteBackground"
+    tools:context=".MaleMeasurementFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/whiteBackground"
-        tools:context=".FirstFragment">
+        android:background="@color/whiteBackground">
 
         <TextView
             android:id="@+id/textview_first"
@@ -252,13 +252,13 @@
             android:background="@color/divider"/>
 
         <TextView
-            android:id="@+id/braSizeLabel"
+            android:id="@+id/chestSizeLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:text="@string/braSize"
+            android:text="@string/chest"
             android:textSize="@dimen/heading_text_h3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/llWaistHips"/>
@@ -270,11 +270,11 @@
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
             android:orientation="horizontal"
-            app:layout_constraintTop_toBottomOf="@+id/braSizeLabel"
+            app:layout_constraintTop_toBottomOf="@+id/chestSizeLabel"
             app:layout_constraintStart_toStartOf="parent">
 
             <EditText
-                android:id="@+id/band"
+                android:id="@+id/chest"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -283,33 +283,10 @@
                 android:text="0"
                 android:background="@color/whiteBackground"/>
             <TextView
+                android:id="@+id/chestIn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="band"/>
-
-            <View
-                android:layout_width="1.5dp"
-                android:layout_height="20dp"
-                android:layout_gravity="bottom"
-                android:layout_marginStart="@dimen/default_margin"
-                android:layout_marginEnd="@dimen/default_margin"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/llHeight"
-                android:background="@color/divider"/>
-
-            <EditText
-                android:id="@+id/cup"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:inputType="textCapCharacters"
-                android:padding="@dimen/default_small_padding"
-                android:text="A"
-                android:background="@color/whiteBackground"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="cup"/>
+                android:text="in"/>
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -425,7 +402,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/default_margin"
             android:text="@string/skip"
-            android:background="@drawable/female_button"
+            android:background="@drawable/male_button"
             android:textSize="@dimen/heading_text_h2"
             android:textColor="@color/whiteBackground"
             android:gravity="center_horizontal"
@@ -439,13 +416,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/default_margin"
-            android:background="@color/whiteBackground"
             android:padding="@dimen/default_padding"
             android:textAllCaps="true"
             android:gravity="center"
             android:textColor="@color/blackText"
             android:textSize="@dimen/heading_text_h3"
-            android:text="@string/next"
+            android:background="@color/whiteBackground"
+            android:elevation="0dp"
+            android:text="@string/previous"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/button_skip"
             app:layout_constraintStart_toStartOf="@+id/button_skip"
